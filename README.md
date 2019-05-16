@@ -13,3 +13,9 @@
 ## Facebook
 
 <a href="https://www.facebook.com/Vasiliy.Fatyuk" target="_blank">https://www.facebook.com/Vasiliy.Fatyuk</a>
+
+
+
+## Result
+
+<img src="https://raw.githubusercontent.com/Vasiliy-Fatyuk/Forte/master/Result.png" />
