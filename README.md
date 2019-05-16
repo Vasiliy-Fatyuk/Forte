@@ -1,7 +1,9 @@
-# Forte
+## Result
+
+<img src="https://raw.githubusercontent.com/Vasiliy-Fatyuk/Forte/master/Result.png" />
+
 
 # My Personal WebSite
-
 
 ##<a href="http://a-ir.tk" target="_blank">Live Site</a>
 
@@ -16,6 +18,4 @@
 
 
 
-## Result
 
-<img src="https://raw.githubusercontent.com/Vasiliy-Fatyuk/Forte/master/Result.png" />
