@@ -8,6 +8,8 @@
 
 Будь ласка, не зловживайте :).
 
+<img src="http://forteknowledge.com/wp-content/uploads/2012/04/ForteLogo.jpg" />
+
 ## Facebook
 
 <a href="https://www.facebook.com/Vasiliy.Fatyuk" target="_blank">https://www.facebook.com/Vasiliy.Fatyuk</a>
