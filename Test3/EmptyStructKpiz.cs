@@ -25,7 +25,6 @@ namespace MyClassKpiz
             driver.Navigate().GoToUrl("https://www.goldtoe.com/");
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
 
-            //IWebElement LogIn = driver.FindElement(By.XPath("//*[@id='top-tools-div']/ul/li[1]"));
             IWebElement LogIn = driver.FindElement(By.PartialLinkText("Sign In/Register"));
             LogIn = LogIn.FindElement(By.XPath("./parent::*"));
             try
@@ -79,6 +78,22 @@ namespace MyClassKpiz
             System.Threading.Thread.Sleep(1000);
             IWebElement ViewCart = driver.FindElement(By.XPath("//*[@id=\"minicart\"]/div[2]/div[2]/button"));
             ViewCart.Click();
+
+            System.Threading.Thread.Sleep(1000);
+            Boolean alert = false;
+            try
+            {
+                IWebElement alerttext = driver.FindElement(By.XPath("//*[@id=\"main\"]/div[8]/ol/li/div[2]/div[1]"));
+                alert = true;
+
+            }
+            catch (Exception)
+            {
+                //MessageBox.Show(ex.Message);
+                driver.Quit();
+            }
+            Assert.AreEqual(alert, true);
+
             System.Threading.Thread.Sleep(5000);
             IWebElement RemoveButton = driver.FindElement(By.XPath("//*[@id=\"main\"]/div[8]/ol/li/div[6]/button[3]"));
             RemoveButton.Click();
