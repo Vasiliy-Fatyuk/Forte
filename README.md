@@ -10,7 +10,7 @@
 
 Будь ласка, не зловживайте :).
 
-<img src="http://forteknowledge.com/wp-content/uploads/2012/04/ForteLogo.jpg" />
+<img src=""https://raw.githubusercontent.com/Vasiliy-Fatyuk/Forte/master/Screenshot.png />
 
 ## Facebook
 
